@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "Microsoft yahei";
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+img {
+    display: block;
+    border: none;
+}
+
+i,em{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
